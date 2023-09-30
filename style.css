@@ -1,20 +1,209 @@
 *{
-font-family:   Square, Rajdhani ;
+    font-family: 'Rajdhani', sans-serif;
 }
-
-nav{
-    width: 100%;
-    height: 150px;
-}
-
-
 a{
     text-decoration: none;
     color: gray;
     font-family: rajdhani;
 }
 
+.nav-item{
+    font-size: small;
+    margin-left: 90px;
+    justify-content: end;
+    margin-bottom: 0%;
+    padding-bottom: 0;
+}
+
+
+h1{
+    font-family: 'Nova Square', cursive; 
+    color: darkred;
+    font-size: 70px;
+    margin-left: -15px;
+    margin-top: 60px;
+    letter-spacing: 2rem;
+}
+
+h2{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+    
+}
+
 .logo{
     width: 100px;
     height: 50px;
 }
+
+header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(231,231,231,0) 0%, rgba(255,255,255,1) 83%), url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size:auto;
+    margin-top: 96px ;
+}
+
+body{
+    background-color: #ececec;
+}
+
+
+
+.montagna2{
+    background: url(./media/mountains2.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: contain;
+    
+    
+}
+.montagna{
+    background: url(./media/mountains2.png);
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    background-position: bottom ;
+    background-size: 100%;
+    margin-left: 0%;
+    
+    
+}
+
+.testo{
+    text-align-last: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.testo::before{
+    content: open-quote;
+    color: rgb(139, 0, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+
+}
+
+.testo::after{
+    content: close-quote;
+    color: darkred;
+    font-size: 70px;
+    position: absolute;
+    bottom: -50px;
+    right: -10px;
+    
+    
+}
+
+.firstTimeline{
+    margin-top: 30px;
+}
+
+.icone{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.inferiorborder{
+    border-bottom: 2px solid darkred;
+    margin-top: 0%;
+}
+
+.pallino::before{
+    position: absolute;
+    bottom: 8px;
+    left: 65px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    background-color: whitesmoke;
+
+}
+
+.button{
+    background-color: darkred;
+    color: #ececec;
+}
+
+.primasezione{
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.whitetree{
+    background-image: url(./media/trees2.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+.Secondtimeline{
+    border-left: 2px solid darkred;
+}
+
+.pallino2::before{
+    position: absolute;
+    left: -12px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    background-color: whitesmoke;
+   
+}
+
+.secondotesto{
+    width: 500px;
+}
+
+.secondasezione{
+    background-color: white;
+    background-image: url(./media/single.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.canyon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 3px;
+}
+
+.fs{
+    font-size: smaller;
+    font-style: italic;
+    display: flex;
+    margin-left: 40px;
+}
+
+
+
+.quartasezione{
+    background-image: url(./media/other.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 300px;
+}
+
+.ourbenefits{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    padding: 8px;
+    margin-left: 45px;
+}
+
+footer{
+    background-color: darkred;
+    color: #ececec;
+}
+
